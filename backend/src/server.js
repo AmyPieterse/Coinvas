@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-const uri = 'mongodb+srv://AmyP:<password>@coinvascluster.mvb0gh3.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://AmyP:SuperSimple@coinvascluster.mvb0gh3.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
